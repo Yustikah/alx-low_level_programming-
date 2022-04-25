@@ -16,7 +16,7 @@ int _isupper(int c)
 		if (c == uppercase)
 		{
 			isupper = 1;
-			brek;
+			break;
 		}
 	}
 
