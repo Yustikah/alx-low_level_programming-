@@ -1,16 +1,15 @@
 #include "lists.h"
 
 /**
- * find_listint_loop - finds the loop in a linked list
- * @head: head of a list
+ * find_listint_loop - finds the loop in a linked list.
+ * @head: head of a list.
  *
- * Return: the address of the node where the loop starts
+ * Return: the address of the node where the loop starts.
  */
-
-listint_t *fin_listint_loop(listint_t *head)
+listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *p2;
-	listint_t *prev2;
+	listint_t *prev;
 
 	p2 = head;
 	prev = head;
@@ -22,7 +21,7 @@ listint_t *fin_listint_loop(listint_t *head)
 		if (head == p2)
 		{
 			head = prev;
-			prev = p2;
+			prev =  p2;
 			while (1)
 			{
 				p2 = prev;
