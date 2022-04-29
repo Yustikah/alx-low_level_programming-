@@ -11,11 +11,11 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt - _sqrt_recursion
- * @n: integer paramtr
- * @i: integer parameter
- * Return: sqrt
- */
+* _sqrt - _sqrt_recursion
+* @n: integer paramtr
+* @i: integer parameter
+* Return: sqrt
+*/
 int _sqrt(int n, int i)
 {
 	if (n < 0)
