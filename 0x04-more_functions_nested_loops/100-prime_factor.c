@@ -4,7 +4,6 @@
  * main - Entry point
  * Return: Always 0
  */
-
 int main(void)
 {
 	unsigned long int i = 3, n = 612852475143;
